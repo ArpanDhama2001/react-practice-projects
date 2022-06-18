@@ -25,6 +25,7 @@ body {
     text-align: center;
     border-bottom:3px solid #49a6e9;
     width: 200px;
+    font-size: 2rem;
 }
 
 .tourComponent {
@@ -73,7 +74,7 @@ body {
     font-size: 0.95rem;
 }
 
-.tourBody button {
+.tourBody .notInterestedBtn {
     margin: 1rem auto 0;
     display: block;
     width: 200px;
@@ -114,4 +115,13 @@ body {
     border-radius: 0.25rem;
     cursor: pointer;
     letter-spacing: .1rem;
+}
+
+.showMoreBtn {
+    border: none;
+    background-color: transparent;
+    color:#49a6e9;
+    font-size: 1rem;
+    padding-left: .5rem;
+    cursor: pointer;
 }
