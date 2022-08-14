@@ -1,0 +1,31 @@
+.menu {
+  /* margin: 2rem; */
+  padding: 1px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  height: 2.5rem;
+  width: 2.5rem;
+  cursor: pointer;
+  /* background: red; */
+}
+.line-1,
+.line-2,
+.line-3 {
+  height: 5px;
+  background: black;
+  border-radius: 5px;
+  margin: 3px 0;
+  transform-origin: left;
+  transition: all 0.5s;
+}
+.change .line-1 {
+  transform: rotate(45deg);
+}
+.change .line-2 {
+  transform: translateX(1rem);
+  opacity: 0;
+}
+.change .line-3 {
+  transform: rotate(-45deg);
+}
