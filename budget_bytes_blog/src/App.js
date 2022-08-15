@@ -1,17 +1,11 @@
-import { Hero, Navbar } from "./components";
+import { Hero, Navbar, Banner } from "./components";
 
 function App() {
   return (
-    <div>
+    <div className="wrapper">
       <Navbar />
-      <section className="banner">
-        <img
-          src={require("./assets/images/logo@2x.jpg")}
-          alt="logo"
-          className="p-4 border-y-2 border-black flex justify-center items-center"
-        />
-      </section>
-      <Hero id="Hero" />
+      <Banner />
+      <Hero />
     </div>
   );
 }

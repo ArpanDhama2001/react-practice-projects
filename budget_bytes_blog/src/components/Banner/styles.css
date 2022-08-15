@@ -1,0 +1,62 @@
+.nav-ul-1 li {
+  position: relative;
+  padding: 15px 0;
+}
+
+.nav-ul-1 li a {
+  transition: all 0.2s;
+  margin: 15px;
+}
+
+.nav-ul-1 li a:hover {
+  cursor: pointer;
+  color: #fbc41b;
+}
+
+.nav-ul-2 {
+  border: 2px solid black;
+  display: none;
+  position: absolute;
+  background: white;
+  transition: all 0.3s;
+  border-top: none;
+  top: 42px;
+  padding: 10px 0;
+  text-align: left;
+}
+
+.nav-ul-1 li:hover .nav-ul-2 {
+  display: block;
+}
+
+.nav-ul-2 li {
+  font-size: 14px;
+  width: 150px;
+  font-weight: 600;
+  padding: 5px 10px;
+}
+
+.nav-ul-2 li a {
+  margin: 0;
+}
+
+.nav-ul-3 {
+  display: none;
+  background: white;
+  position: absolute;
+  top: -4px;
+  left: 150px;
+  border: 2px solid black;
+}
+
+.faIcon {
+  float: right;
+}
+
+.nav-ul-2 li:hover .nav-ul-3 {
+  display: block;
+}
+
+/* .nav-ul-1 li:hover .nav-ul-3 {
+  display: none;
+} */
