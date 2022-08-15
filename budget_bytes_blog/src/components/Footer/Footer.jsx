@@ -2,8 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <section id="footer" className="md:grid grid-cols-2 grid-rows-1 gap-6 mt-6">
-      <div className="footer-top mt-[40px] md:mr-[10%] pl-[67px]">
+    <section
+      id="footer"
+      className="md:grid grid-cols-2 grid-rows-1 gap-6 mt-6 pt-4 border-t-[1px] "
+    >
+      <div className="footer-top pt-[24px] md:mr-[10%] pl-[67px]">
         <img
           src={require("../../assets/images/logo@2x.jpg")}
           alt="logo"
@@ -18,35 +21,65 @@ const Footer = () => {
         </p>
       </div>
       <div className="footer-bottom grid grid-rows-1 grid-cols-3 p-6 gap-4">
-        <div className="connect text-center">
+        <div className="connect text-center md:text-left">
           <h2 className="font-bold uppercase font-['Montserrat'] mb-2">
             connect
           </h2>
-          <h5>Facebook</h5>
-          <h5>Pinterest</h5>
-          <h5>Instagram</h5>
-          <h5>Twitter</h5>
-          <h5>YouTube</h5>
+          <a href="/" className="block">
+            Facebook
+          </a>
+          <a href="/" className="block">
+            Pinterest
+          </a>
+          <a href="/" className="block">
+            Instagram
+          </a>
+          <a href="/" className="block">
+            Twitter
+          </a>
+          <a href="/" className="block">
+            YouTube
+          </a>
         </div>
-        <div className="browse text-center">
+        <div className="browse text-center md:text-left">
           <h2 className="font-bold uppercase font-['Montserrat'] mb-2">
             browse
           </h2>
-          <h5>Recipes</h5>
-          <h5>How-To</h5>
-          <h5>Kitchen Basics</h5>
-          <h5>Pantry Staples</h5>
-          <h5>Extra Bytes</h5>
+          <a href="/" className="block">
+            Recipes
+          </a>
+          <a href="/" className="block">
+            How-To
+          </a>
+          <a href="/" className="block">
+            Kitchen Basics
+          </a>
+          <a href="/" className="block">
+            Pantry Staples
+          </a>
+          <a href="/" className="block">
+            Extra Bytes
+          </a>
         </div>
-        <div className="information text-center font-">
+        <div className="information text-center md:text-left">
           <h2 className="font-bold uppercase font-['Montserrat'] mb-2">
             information
           </h2>
-          <h5>Contact</h5>
-          <h5>FAQ</h5>
-          <h5>Terms & Conditions</h5>
-          <h5>Pricavy Policy</h5>
-          <h5>Accessibility</h5>
+          <a href="/" className="block">
+            Contact
+          </a>
+          <a href="/" className="block">
+            FAQ
+          </a>
+          <a href="/" className="block">
+            Terms & Conditions
+          </a>
+          <a href="/" className="block">
+            Pricavy Policy
+          </a>
+          <a href="/" className="block">
+            Accessibility
+          </a>
         </div>
       </div>
 
