@@ -2,7 +2,10 @@ import { data } from "../../assets/data";
 import "./styles.css";
 
 const Hero = () => (
-  <section id="hero" className="bg-[#2a2a2a] flex md:flex-row flex-col">
+  <section
+    id="hero"
+    className="bg-[#2a2a2a] flex md:flex-row flex-col mb-[65px]"
+  >
     <img
       src={require("../../assets/images/Hero.jpg")}
       alt="Homemade Granola"

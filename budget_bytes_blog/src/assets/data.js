@@ -2,7 +2,7 @@ export const data = [
   {
     id: 1,
     name: "HOMEMADE GRANOLA",
-    image: "./images/Hero.jpg",
+    image: "Hero.jpg",
     price: {
       recipe: 5.87,
       serving: 0.49,
@@ -13,7 +13,7 @@ export const data = [
   {
     id: 2,
     name: "Baked Zucchini Fries",
-    image: "./images/Baked-Zucchini-Fries-dip.png",
+    image: "Baked-Zucchini-Fries-dip.png",
     price: {
       recipe: 3.81,
       serving: 0.76,
@@ -24,7 +24,7 @@ export const data = [
   {
     id: 3,
     name: "Tomato Rice",
-    image: "./images/Tomato-Rice.jpg",
+    image: "Tomato-Rice.jpg",
     price: {
       recipe: 2.4,
       serving: 0.3,
@@ -35,7 +35,7 @@ export const data = [
   {
     id: 4,
     name: "Sheet pan portobello fajitas",
-    image: "./images/Sheet-Pan-Portobello-Fajitas-plate.jpg",
+    image: "Sheet-Pan-Portobello-Fajitas-plate.jpg",
     price: {
       recipe: 10.81,
       serving: 2.7,
@@ -46,7 +46,7 @@ export const data = [
   {
     id: 5,
     name: "Chipotle Peach Salsa",
-    image: "./images/Chipotle-Peach-Salsa-above.jpg",
+    image: "Chipotle-Peach-Salsa-above.jpg",
     price: {
       recipe: 3.19,
       serving: 0.27,
@@ -57,7 +57,7 @@ export const data = [
   {
     id: 6,
     name: "BÚN CHẢ (VIETNAMESE MEATBALLS)",
-    image: "./images/Bun-Cha.jpg",
+    image: "Bun-Cha.jpg",
     price: {
       recipe: 16.22,
       serving: 4.06,
@@ -68,7 +68,7 @@ export const data = [
   {
     id: 7,
     name: "Panzanella",
-    image: "./images/Panzanella.jpg",
+    image: "Panzanella.jpg",
     price: {
       recipe: 13.54,
       serving: 2.26,
@@ -91,7 +91,7 @@ export const data = [
   {
     id: 9,
     name: "Baked Zucchini Fries",
-    image: "./images/Baked-Zucchini-Fries-dip.png",
+    image: "Baked-Zucchini-Fries-dip.png",
     price: {
       recipe: 3.81,
       serving: 0.76,
@@ -102,7 +102,7 @@ export const data = [
   {
     id: 10,
     name: "HOMEMADE GRANOLA",
-    image: "./images/Hero.jpg",
+    image: "Hero.jpg",
     price: {
       recipe: 5.87,
       serving: 0.49,
@@ -113,7 +113,7 @@ export const data = [
   {
     id: 11,
     name: "BÚN CHẢ (VIETNAMESE MEATBALLS)",
-    image: "./images/Bun-Cha.jpg",
+    image: "Bun-Cha.jpg",
     price: {
       recipe: 16.22,
       serving: 4.06,
@@ -135,7 +135,7 @@ export const data = [
   {
     id: 13,
     name: "Tomato Rice",
-    image: "./images/Tomato-Rice.jpg",
+    image: "Tomato-Rice.jpg",
     price: {
       recipe: 2.4,
       serving: 0.3,
@@ -146,7 +146,7 @@ export const data = [
   {
     id: 14,
     name: "Sheet pan portobello fajitas",
-    image: "./images/Sheet-Pan-Portobello-Fajitas-plate.jpg",
+    image: "Sheet-Pan-Portobello-Fajitas-plate.jpg",
     price: {
       recipe: 10.81,
       serving: 2.7,
@@ -157,7 +157,7 @@ export const data = [
   {
     id: 15,
     name: "Chipotle Peach Salsa",
-    image: "./images/Chipotle-Peach-Salsa-above.jpg",
+    image: "Chipotle-Peach-Salsa-above.jpg",
     price: {
       recipe: 3.19,
       serving: 0.27,
@@ -168,7 +168,7 @@ export const data = [
   {
     id: 16,
     name: "Panzanella",
-    image: "./images/Panzanella.jpg",
+    image: "Panzanella.jpg",
     price: {
       recipe: 13.54,
       serving: 2.26,
