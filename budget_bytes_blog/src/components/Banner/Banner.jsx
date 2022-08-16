@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Banner = () => {
   return (
-    <section className="banner border-y-2 border-black">
+    <section className="banner border-b-2 border-black">
       <img
         src={require("../../assets/images/logo@2x.jpg")}
         alt="logo"

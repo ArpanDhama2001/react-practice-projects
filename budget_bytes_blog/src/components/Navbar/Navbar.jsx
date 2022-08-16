@@ -1,3 +1,4 @@
+import MobileNavbar from "./MobileNavbar";
 import MenuIcon from "../MenuIcon/MenuIcon";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -11,18 +12,35 @@ import {
   faTwitter,
   faPinterestP,
 } from "@fortawesome/free-brands-svg-icons";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [showNav, setShowNav] = useState(false);
+  console.log(showNav);
   return (
     <nav className="">
-      <div className="nav-sm md:hidden py-2 px-4 flex flex-row items-center justify-between">
-        <MenuIcon />
+      <div className="nav-sm md:hidden py-2 px-4 flex flex-row items-center justify-between border-b-[2px] border-black">
+        <div
+          onClick={() => {
+            console.log("clicked");
+            setShowNav(!showNav);
+          }}
+        >
+          <MenuIcon />
+        </div>
         <img
           src={require("../../assets/images/icon.jpg")}
           alt="icon"
           className="w-[35px] h-[30px] cursor-pointer "
         />
-        <FontAwesomeIcon icon={faMagnifyingGlass} className="cursor-pointer" />
+        <FontAwesomeIcon
+          icon={faMagnifyingGlass}
+          className="cursor-pointer text-xl"
+        />
+      </div>
+
+      <div className={`${showNav ? "block" : "hidden"}`}>
+        <MobileNavbar />
       </div>
 
       <div className="nav-md hidden md:flex justify-between items-center">
@@ -58,7 +76,7 @@ const Navbar = () => {
           <div className="search-box w-[170px] flex items-center justify-evenly border-black border-2 border-solid px-2 py-1">
             <input
               type="text"
-              className="search-input w-[120px] italic"
+              className="search-input w-[120px] italic border-none focus-visible:outline-none"
               placeholder="searh reipes"
             />
             <FontAwesomeIcon

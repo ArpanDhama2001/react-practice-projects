@@ -1,0 +1,34 @@
+ul {
+}
+
+.ul-1 {
+  position: absolute;
+  width: 100vw;
+}
+
+.ul-2 {
+}
+
+li {
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.li-1 {
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+}
+
+.li-3 {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+
+.fa {
+  float: right;
+  margin-top: 4px;
+  position: relative;
+  left: -30px;
+  cursor: pointer;
+}
